@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6113bc37-7480-41bf-8a79-ce1b46922a87</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonWriteFileApp.py</StartupFile>
+    <StartupFile>PythonError.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PythonError.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonOpenFileApp.py" />
     <Compile Include="PythonWriteFileApp.py">
       <SubType>Code</SubType>
